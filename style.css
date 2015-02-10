@@ -1,0 +1,24 @@
+#gameView{margin: auto;}
+#start,#time,#score{width: 50px;height: 30px;}
+.container{
+	max-width: 600px;
+	margin: auto;	
+}
+
+/*start*/
+body{margin: 0;padding: 0;background: #fafac8;}
+#startBtn,#againBtn{width:120px;height:40px;margin: auto;margin-top: 220px;}
+
+/*again*/
+#result{
+	width:300px;height:75px;
+	margin: auto;
+	color: #FE9800;background: url(img/2副本.png) no-repeat; 
+
+}
+#resultNum{
+	font-size: 50px;
+	position: relative;
+	left: 250px;
+	top: 12px;
+}
